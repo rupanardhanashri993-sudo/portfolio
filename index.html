@@ -1,1 +1,1060 @@
-this is my first repository
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zero Hunger Hub – SDG 2</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== LOADING SCREEN ========== -->
+  <div id="loader">
+    <div class="loader-content">
+      <div class="loader-logo">🌾</div>
+      <p>Zero Hunger Hub</p>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ========== BACK TO TOP ========== -->
+  <button id="backToTop" title="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon">🌾</span>
+        <span>Zero<strong>Hunger</strong>Hub</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#schemes">Schemes</a></li>
+        <li><a href="#stories">Stories</a></li>
+        <li><a href="#volunteer">Volunteer</a></li>
+        <li><a href="#contact" class="nav-cta">Get Help</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section id="hero">
+    <!-- Animated background blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <!-- Floating food icons -->
+    <div class="float-icons">
+    </div>
+    <div class="hero-content">
+      <div class="hero-text reveal">
+        <span class="hero-badge">🎯 UN SDG Goal 2</span>
+        <h1>Together We Can<br /><em>End Hunger</em></h1>
+        <p>Join millions worldwide in the fight against hunger. Connect, donate, volunteer, and create lasting change — one meal at a time.</p>
+        <div class="hero-btns">
+          <a href="#donate" class="btn btn-primary">
+            <i class="fas fa-hand-holding-heart"></i> Donate Food
+          </a>
+          <a href="#schemes" class="btn btn-secondary">
+            <i class="fas fa-search"></i> Find Help
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="hstat"><strong>820M+</strong><span>People Hungry</span></div>
+          <div class="hstat-divider"></div>
+          <div class="hstat"><strong>1/3</strong><span>Food Wasted</span></div>
+          <div class="hstat-divider"></div>
+          <div class="hstat"><strong>SDG 2</strong><span>by 2030</span></div>
+        </div>
+      </div>
+      <div class="hero-image reveal">
+        <div class="hero-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=700&q=80" alt="Children receiving food" />
+          <div class="hero-img-badge">
+            <span>🍽️ <h3>meals served</h3></span>
+            <div><strong>2.4M+</strong><small></small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SVG wave divider -->
+    <div class="wave-bottom">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f9f6f0"/></svg>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SDG 2 ========== -->
+  <section id="about" class="section bg-beige">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What is SDG 2?</span>
+        <h2>Zero Hunger – <em>Our Mission</em></h2>
+        <p>The United Nations Sustainable Development Goal 2 aims to end hunger, achieve food security, improve nutrition and promote sustainable agriculture by 2030.</p>
+      </div>
+      <div class="sdg-cards">
+        <div class="sdg-card reveal" data-delay="0">
+          <div class="sdg-icon" style="background:#e8f5e9;"><h3>🛡️ Food Security</h3></div>
+          <p>Ensuring all people have access to safe, nutritious, and sufficient food throughout the year.</p>
+        </div>
+        <div class="sdg-card reveal" data-delay="100">
+          <div class="sdg-icon" style="background:#fff8e1;"><h3>🥗 Nutrition</h3></div>
+          <p>Ending all forms of malnutrition including stunting, wasting and obesity in children and mothers.</p>
+        </div>
+        <div class="sdg-card reveal" data-delay="200">
+          <div class="sdg-icon" style="background:#e3f2fd;"><h3>🌱 Sustainable Agriculture</h3></div>
+          <p>Doubling agricultural productivity and incomes of small-scale food producers sustainably.</p>
+        </div>
+        <div class="sdg-card reveal" data-delay="300">
+          <div class="sdg-icon" style="background:#fce4ec;"><h3>🤝 Community Support</h3></div>
+                    <p>Building resilient food systems that support local communities and reduce vulnerability.</p>
+        </div>
+      </div>
+      <div class="sdg-facts reveal">
+        <div class="fact-item">
+          <i class="fas fa-exclamation-circle"></i>
+          <p><strong>828 million</strong> people go to bed hungry every night worldwide.</p>
+        </div>
+        <div class="fact-item">
+          <i class="fas fa-trash-alt"></i>
+          <p><strong>1.3 billion tons</strong> of food is wasted globally every year.</p>
+        </div>
+        <div class="fact-item">
+          <i class="fas fa-child"></i>
+          <p><strong>45%</strong> of child deaths are linked to malnutrition globally.</p>
+        </div>
+      </div>
+    </div>
+    <div class="wave-bottom">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#fff"/></svg>
+    </div>
+  </section>
+
+  <!-- ========== LIVE IMPACT COUNTERS ========== -->
+  <section id="impact" class="section bg-white">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Our Impact</span>
+        <h2>Numbers That <em>Matter</em></h2>
+        <p>Real change made possible by donors, volunteers, and partners across India.</p>
+      </div>
+      <div class="counter-grid">
+        <div class="counter-card reveal" data-delay="0">
+          <div class="counter-icon">🍽️ Meals Donated</div>
+          <div class="counter-num" data-target="2400000">24M+</div>
+        </div>
+        <div class="counter-card reveal" data-delay="100">
+          <div class="counter-icon">👨‍👩‍👧‍👦 Families Helped </div>
+          <div class="counter-num" data-target="148000">20M+</div>
+        </div>
+        <div class="counter-card reveal" data-delay="200">
+          <div class="counter-icon">🙋 Active Volunteer</div>
+          <div class="counter-num" data-target="32000">1M+</div>
+        </div>
+        <div class="counter-card reveal" data-delay="300">
+          <div class="counter-icon">🏢 NGO's Connected</div>
+          <div class="counter-num" data-target="520">20K+</div>        </div>
+      </div>
+    </div>
+    <div class="wave-bottom">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,20 C480,80 960,0 1440,60 L1440,80 L0,80 Z" fill="#f9f6f0"/></svg>
+    </div>
+  </section>
+
+  <!-- ========== FOOD DONATION SYSTEM ========== -->
+  <section id="donate" class="section bg-beige">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Food Donation</span>
+        <h2>How You Can <em>Help</em></h2>
+        <p>Simple, meaningful actions that connect surplus food with those who need it most.</p>
+      </div>
+      <div class="donate-grid">
+        <div class="donate-card reveal" data-delay="0">
+          <div class="donate-card-img">
+            <img src="https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?w=400&q=80" alt="Donate Food" />
+            <div class="donate-badge">Most Popular</div>
+          </div>
+          <div class="donate-card-body">
+            <div class="donate-icon">🎁</div>
+            <h3>Donate Excess Food</h3>
+            <p>Have leftover food from events or your kitchen? Schedule a pickup and we'll deliver it to those in need.</p>
+            <button class="btn btn-primary" onclick="openModal('donate-modal')">Schedule Pickup</button>
+          </div>
+        </div>
+        <div class="donate-card reveal" data-delay="100">
+          <div class="donate-card-img">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=400&q=80" alt="Request Help" />
+          </div>
+          <div class="donate-card-body">
+            <div class="donate-icon">🙏</div>
+            <h3>Request Food Support</h3>
+            <p>Individuals, families, and shelters in need can register to receive regular food assistance.</p>
+            <button class="btn btn-outline" onclick="openModal('request-modal')">Request Support</button>
+          </div>
+        </div>
+        <div class="donate-card reveal" data-delay="200">
+          <div class="donate-card-img">
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&q=80" alt="Food Drive" />
+          </div>
+          <div class="donate-card-body">
+            <div class="donate-icon">📍</div>
+            <h3>Nearby Food Drives</h3>
+            <p>Find community food drives near you and contribute directly to local hunger relief initiatives.</p>
+            <button class="btn btn-outline" onclick="scrollTo('#map')">Find Nearby</button>
+          </div>
+        </div>
+        <div class="donate-card reveal" data-delay="300">
+          <div class="donate-card-img">
+            <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=400&q=80" alt="Volunteer" />
+          </div>
+          <div class="donate-card-body">
+            <div class="donate-icon">🚗</div>
+            <h3>Volunteer Pickup</h3>
+            <p>Join our fleet of volunteer drivers who pick up and distribute food across the city every day.</p>
+            <button class="btn btn-outline" onclick="document.getElementById('volunteer').scrollIntoView({behavior:'smooth'})">Join as Driver</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-bottom">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,60 C360,0 1080,80 1440,20 L1440,80 L0,80 Z" fill="#fff"/></svg>
+    </div>
+  </section>
+  
+
+  <!-- ========== GOVERNMENT SCHEMES ========== -->
+  <section id="schemes" class="section bg-white">
+
+  <div class="container">
+
+    <div class="section-header">
+      <span class="section-tag">Government Support</span>
+
+      <h2>
+        Indian Food Security <em>Schemes</em>
+      </h2>
+
+      <p>
+        Explore major government initiatives working towards hunger-free and nutritionally secure India.
+      </p>
+    </div>
+
+    <div class="schemes-grid">
+
+      <!-- CARD 1 -->
+      <div class="scheme-card">
+
+        <div class="scheme-top">
+          🍚
+        </div>
+
+        <h3>Public Distribution System (PDS)</h3>
+
+        <p>
+          Provides essential food grains like rice, wheat, and sugar at subsidized rates to low-income families.
+        </p>
+
+        <div class="scheme-info">
+          <span>👨‍👩‍👧 80+ Crore Beneficiaries</span>
+        </div>
+
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="scheme-card">
+
+        <div class="scheme-top">
+          🥗
+        </div>
+
+        <h3>Mid-Day Meal Scheme</h3>
+
+        <p>
+          Nutritious meals provided to school children to improve attendance, nutrition, and learning outcomes.
+        </p>
+
+        <div class="scheme-info">
+          <span>🏫 Covers Government Schools</span>
+        </div>
+
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="scheme-card">
+
+        <div class="scheme-top">
+          👶
+        </div>
+
+        <h3>Integrated Child Development Services</h3>
+
+        <p>
+          Supports children under 6 years and pregnant mothers through nutrition, immunization, and health services.
+        </p>
+
+        <div class="scheme-info">
+          <span>❤️ Mother & Child Care</span>
+        </div>
+
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="scheme-card">
+
+        <div class="scheme-top">
+          🌾
+        </div>
+
+        <h3>National Food Security Act</h3>
+
+        <p>
+          Legal framework ensuring affordable food grains and nutritional security for vulnerable populations.
+        </p>
+
+        <div class="scheme-info">
+          <span>⚖️ Right to Food</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- ========== FOOD WASTE AWARENESS ========== -->
+   <section id="waste" class="section bg-beige">
+
+  <div class="container">
+
+    <div class="section-header">
+
+      <span class="section-tag">The Hidden Crisis</span>
+
+      <h2>
+        Hunger & Food Waste Are <em>Connected</em>
+      </h2>
+
+      <p>
+        While millions sleep hungry every night, huge amounts of food are wasted daily. Reducing waste can directly fight hunger.
+      </p>
+
+    </div>
+
+    <div class="crisis-layout">
+
+      <!-- LEFT -->
+      <div class="crisis-image">
+
+        <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=900&q=80">
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="crisis-content">
+
+        <div class="crisis-card">
+
+          <h3>🍱 1.3 Billion Tons Wasted</h3>
+
+          <p>
+            Every year, enough food to feed billions is thrown away globally.
+          </p>
+
+        </div>
+
+        <div class="crisis-card">
+
+          <h3>😔 828 Million Hungry People</h3>
+
+          <p>
+            Millions still struggle daily to access nutritious food and clean meals.
+          </p>
+
+        </div>
+
+        <div class="crisis-card">
+
+          <h3>🌍 Environmental Impact</h3>
+
+          <p>
+            Food waste increases greenhouse gas emissions and wastes water, land, and energy resources.
+          </p>
+
+        </div>
+
+        <div class="crisis-card">
+
+          <h3>🤝 Small Actions Matter</h3>
+
+          <p>
+            Meal planning, donating leftovers, and proper storage can reduce hunger significantly.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- ========== SUCCESS STORIES ========== -->
+  <section id="stories" class="section bg-white">
+
+  <div class="container">
+
+    <div class="section-header">
+
+      <span class="section-tag">Voices of Hope</span>
+
+      <h2>
+        Real Stories. Real <em>Impact</em>
+      </h2>
+
+      <p>
+        Stories from volunteers, families, and communities whose lives changed through collective support.
+      </p>
+
+    </div>
+
+    <div class="stories-grid">
+
+      <!-- STORY 1 -->
+      <div class="story-card">
+
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&q=80">
+
+        <div class="story-content">
+
+          <h3>Rahul – Volunteer Driver</h3>
+
+          <p>
+            “Delivering food every weekend helped me understand how even small efforts can transform lives.”
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- STORY 2 -->
+      <div class="story-card">
+
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&q=80">
+
+        <div class="story-content">
+
+          <h3>Anita – Single Mother</h3>
+
+          <p>
+            “The community kitchen supported my family during difficult times. We never felt alone.”
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- STORY 3 -->
+      <div class="story-card">
+
+        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&q=80">
+
+        <div class="story-content">
+
+          <h3>Imran – Student Volunteer</h3>
+
+          <p>
+            “I joined to help others, but I also learned compassion, teamwork, and leadership.”
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- ========== MAP / LOCATIONS ========== -->
+<section id="map" class="section bg-beige">
+
+  <div class="container">
+
+    <div class="section-header">
+
+      <span class="section-tag">Support Near You</span>
+
+      <h2>
+        Hunger Relief <em>Centres</em>
+      </h2>
+
+      <p>
+        Find trusted food banks, shelters, and community kitchens helping people across India every day.
+      </p>
+
+    </div>
+
+    <div class="relief-layout">
+
+      <!-- LEFT SIDE -->
+      <div class="relief-cards">
+
+        <!-- CARD -->
+        <div class="relief-card">
+
+          <div class="relief-icon">
+            🍱
+          </div>
+
+          <div class="relief-info">
+
+            <h3>Akshaya Patra Kitchen</h3>
+
+            <p>
+              📍 Pune, Maharashtra
+            </p>
+
+            <p>
+              ⏰ Open: 8AM – 6PM
+            </p>
+
+            <span class="relief-badge open">
+              Open Now
+            </span>
+
+          </div>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="relief-card">
+
+          <div class="relief-icon">
+            🤝
+          </div>
+
+          <div class="relief-info">
+
+            <h3>Robin Hood Army</h3>
+
+            <p>
+              📍 Mumbai, Maharashtra
+            </p>
+
+            <p>
+              ⏰ Open: 7AM – 9PM
+            </p>
+
+            <span class="relief-badge open">
+              Open Now
+            </span>
+
+          </div>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="relief-card">
+
+          <div class="relief-icon">
+            🏠
+          </div>
+
+          <div class="relief-info">
+
+            <h3>Sneha Shelter Home</h3>
+
+            <p>
+              📍 Delhi, NCR
+            </p>
+
+            <p>
+              ⏰ 24/7 Emergency Support
+            </p>
+
+            <span class="relief-badge open">
+              Available
+            </span>
+
+          </div>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="relief-card">
+
+          <div class="relief-icon">
+            🌾
+          </div>
+
+          <div class="relief-info">
+
+            <h3>Community Food Bank</h3>
+
+            <p>
+              📍 Chennai, Tamil Nadu
+            </p>
+
+            <p>
+              ⏰ Open: 6AM – 8PM
+            </p>
+
+            <span class="relief-badge closed">
+              Busy
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="relief-map">
+
+        <img src="https://images.unsplash.com/photo-1524499982521-1ffd58dd89ea?w=900&q=80" alt="Food Relief">
+
+        <div class="map-overlay-card">
+
+          <h3>500+ Centres</h3>
+
+          <p>
+            Supporting families across India every day through food donations and community kitchens.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+  <!-- ========== VOLUNTEER FORM ========== -->
+ <section id="volunteer" class="section bg-white">
+
+  <div class="container">
+
+    <div class="section-header">
+
+      <span class="section-tag">Join Our Mission</span>
+
+      <h2>
+        Become a <em>Volunteer</em>
+      </h2>
+
+      <p>
+        Help distribute food, support families, and create meaningful impact in your community.
+      </p>
+
+    </div>
+
+    <div class="volunteer-layout-new">
+
+      <!-- LEFT -->
+      <div class="volunteer-image">
+
+  <img 
+  src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=900&q=80"
+  alt="Volunteers helping community">
+
+  <div class="volunteer-image-card">
+
+    <h3>🌱 Together We Create Change</h3>
+
+    <p>
+      Every helping hand brings hope, food, and smiles to families in need.
+    </p>
+
+  </div>
+
+</div>
+
+      <!-- RIGHT -->
+      <div class="volunteer-form-box">
+
+        <h3>Volunteer Registration</h3>
+
+        <form>
+
+          <div class="form-group">
+            <input type="text" placeholder="Full Name">
+          </div>
+
+          <div class="form-group">
+            <input type="email" placeholder="Email Address">
+          </div>
+
+          <div class="form-group">
+            <input type="tel" placeholder="Phone Number">
+          </div>
+
+          <div class="form-group">
+            <input type="text" placeholder="Your City">
+          </div>
+
+          <div class="form-group">
+
+            <select>
+
+              <option>Select Your Role</option>
+
+              <option>Food Distribution</option>
+
+              <option>Driving / Delivery</option>
+
+              <option>Cooking</option>
+
+              <option>Fundraising</option>
+
+              <option>Social Media Support</option>
+
+            </select>
+
+          </div>
+
+          <div class="form-group">
+            <textarea rows="4" placeholder="Why would you like to volunteer?"></textarea>
+          </div>
+
+          <button class="btn btn-primary full-width">
+            🌱 Join As Volunteer
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+  <!-- ========== NEWSLETTER ========== -->
+   <section id="contact" class="section community-section">
+
+  <div class="container">
+
+    <div class="community-layout">
+
+      <!-- LEFT -->
+      <div class="community-content">
+
+        <span class="section-tag light">
+          Stay Connected
+        </span>
+
+        <h2>
+          Join Our <em>Community</em>
+        </h2>
+
+        <p>
+          Become part of a movement that spreads kindness, reduces hunger, and builds stronger communities across India.
+        </p>
+
+        <div class="community-points">
+
+          <div class="community-point">
+            ✅ Get volunteer opportunities
+          </div>
+
+          <div class="community-point">
+            ✅ Receive impact updates
+          </div>
+
+          <div class="community-point">
+            ✅ Learn ways to reduce food waste
+          </div>
+
+          <div class="community-point">
+            ✅ Inspire and help others
+          </div>
+
+        </div>
+
+        <div class="newsletter-form-modern">
+
+          <input 
+          type="email" 
+          placeholder="Enter your email address">
+
+          <button class="btn btn-primary">
+            Subscribe
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="community-image">
+
+        <img 
+        src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=900&q=80"
+        alt="Happy community">
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section id="motivation" class="section motivation-section">
+
+  <div class="container">
+
+    <div class="motivation-box">
+
+      <span class="motivation-icon">
+        💚
+      </span>
+
+      <h2>
+        Small Acts Create <em>Big Change</em>
+      </h2>
+
+      <p>
+        Every donated meal, every helping hand, and every act of kindness creates hope for someone in need.
+      </p>
+
+      <p>
+        You may not change the whole world alone — but for one person, your support can mean everything.
+      </p>
+
+      <div class="motivation-quotes">
+
+        <div class="quote-card">
+          🌱 “Kindness grows when shared.”
+        </div>
+
+        <div class="quote-card">
+          🍽️ “A meal can change a life.”
+        </div>
+
+        <div class="quote-card">
+          🤝 “Together, no one goes hungry.”
+        </div>
+
+      </div>
+
+      <button class="btn btn-primary">
+        Keep Spreading Hope
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom:1rem;">
+            <span class="logo-icon">🌾</span>
+            <span style="font-size:1.3rem;">Zero<strong>Hunger</strong>Hub</span>
+          </div>
+          <p>A community-driven platform working towards UN SDG Goal 2 — Zero Hunger by 2030.</p>
+          <div class="footer-sdg">
+            <span>🎯</span>
+            <div><strong>SDG 2</strong><small>Zero Hunger</small></div>
+          </div>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About SDG 2</a></li>
+            <li><a href="#impact">Our Impact</a></li>
+            <li><a href="#donate">Donate Food</a></li>
+            <li><a href="#schemes">Gov Schemes</a></li>
+            <li><a href="#stories">Success Stories</a></li>
+            <li><a href="#volunteer">Volunteer</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="#">Food Drives</a></li>
+            <li><a href="#">Community Kitchen</a></li>
+            <li><a href="#">Nutrition Program</a></li>
+            <li><a href="#">School Meals</a></li>
+            <li><a href="#">Emergency Relief</a></li>
+            <li><a href="#">Farmer Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p><i class="fas fa-map-marker-alt"></i> 45, SDG Nagar, Pune – 411001</p>
+          <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+          <p><i class="fas fa-envelope"></i> help@zerohungerhub.org</p>
+          <p><i class="fas fa-globe"></i> www.zerohungerhub.org</p>
+          <div class="footer-badges">
+            <span class="fbadge">🏅 NGO Certified</span>
+            <span class="fbadge">🔐 Secure Donations</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Zero Hunger Hub. Made with ❤️ for a hunger-free world. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== MODALS ========== -->
+  <div class="modal-overlay" id="donate-modal" onclick="closeModal('donate-modal')">
+    <div class="modal" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal('donate-modal')"><i class="fas fa-times"></i></button>
+      <div class="modal-icon">🎁</div>
+      <h3>Schedule a Food Pickup</h3>
+      <p>Fill in your details and we'll arrange a volunteer to collect the food.</p>
+      <div class="form-group"><input type="text" placeholder="Your Name" /></div>
+      <div class="form-group"><input type="tel" placeholder="Phone Number" /></div>
+      <div class="form-group"><input type="text" placeholder="Pickup Address" /></div>
+      <div class="form-group"><input type="text" placeholder="Food Items / Quantity" /></div>
+      <div class="form-group"><input type="datetime-local" /></div>
+      <button class="btn btn-primary full-width" onclick="closeModal('donate-modal');showToast('🎉 Pickup scheduled! A volunteer will contact you soon.')">Confirm Pickup</button>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="request-modal" onclick="closeModal('request-modal')">
+    <div class="modal" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal('request-modal')"><i class="fas fa-times"></i></button>
+      <div class="modal-icon">🙏</div>
+      <h3>Request Food Support</h3>
+      <p>We're here to help. Share your details and our team will reach out within 24 hours.</p>
+      <div class="form-group"><input type="text" placeholder="Your Name" /></div>
+      <div class="form-group"><input type="tel" placeholder="Phone Number" /></div>
+      <div class="form-group"><input type="text" placeholder="Your Location / Area" /></div>
+      <div class="form-group">
+        <select>
+          <option>Individual</option>
+          <option>Family</option>
+          <option>Shelter / NGO</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group"><textarea rows="3" placeholder="Tell us about your situation..."></textarea></div>
+      <button class="btn btn-primary full-width" onclick="closeModal('request-modal');showToast('✅ Request received! Our team will contact you within 24 hours.')">Submit Request</button>
+    </div>
+  </div>
+
+  <!-- Scheme Detail Modal -->
+  <div class="modal-overlay" id="scheme-modal" onclick="closeModal('scheme-modal')">
+    <div class="modal scheme-modal-inner" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal('scheme-modal')"><i class="fas fa-times"></i></button>
+      <div id="schemeModalContent"></div>
+    </div>
+  </div>
+
+  <!-- ========== TOAST ========== -->
+  <div id="toast"></div>
+
+  <!-- ========== CHATBOT ========== -->
+  <!-- ========== CHATBOT ========== -->
+
+<!-- Floating Chat Button -->
+<div class="chatbot-fab" id="chatbotFab" onclick="toggleChatbot()">
+
+  <div class="chatbot-icon">
+    💬
+  </div>
+
+</div>
+
+<!-- Chat Window -->
+<div class="chatbot-window" id="chatbotWindow">
+
+  <!-- Header -->
+  <div class="chatbot-header">
+
+    <div class="chatbot-header-left">
+      <div class="chatbot-avatar">🤖</div>
+
+      <div>
+        <h4>Asha AI</h4>
+        <small>Online • Zero Hunger Assistant</small>
+      </div>
+    </div>
+
+    <button class="chatbot-close-btn" onclick="toggleChatbot()">
+      ✕
+    </button>
+
+  </div>
+
+  <!-- Messages -->
+  <div class="chatbot-messages" id="chatMessages">
+
+    <div class="chat-msg bot">
+      <div class="chat-bubble">
+        👋 Hello! I'm <strong>Asha</strong>.<br>
+        How can I help you today?
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Suggestions -->
+  <div class="chatbot-suggestions">
+
+    <button onclick="sendSuggestion('How can I donate food?')">
+      🎁 Donate
+    </button>
+
+    <button onclick="sendSuggestion('How can I volunteer?')">
+      🙋 Volunteer
+    </button>
+
+    <button onclick="sendSuggestion('Government schemes')">
+      📋 Schemes
+    </button>
+
+    <button onclick="sendSuggestion('Need food help')">
+      🙏 Help
+    </button>
+
+  </div>
+
+  <!-- Input -->
+  <div class="chatbot-input-area">
+
+    <input
+      type="text"
+      id="chatInput"
+      placeholder="Type your message..."
+      onkeydown="if(event.key==='Enter') sendMessage()"
+    >
+
+    <button onclick="sendMessage()">
+      <i class="fas fa-paper-plane"></i>
+    </button>
+
+  </div>
+
+</div>
